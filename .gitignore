@@ -1,3 +1,4 @@
 .env
 scrappy
 venv
+.DS_Store

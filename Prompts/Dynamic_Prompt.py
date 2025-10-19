@@ -19,6 +19,8 @@ template = PromptTemplate(
 
 input_variables = ['paper_input', 'style_input', 'length_input']
 
+validate_template = True
+
 prompt = template.invoke({
     'paper_input': paper_input, 'style_input': style_input, 'length_input': length_input
 })
